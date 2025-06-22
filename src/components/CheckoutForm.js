@@ -32,9 +32,6 @@ const CheckoutForm = ({ cartItems, totalAmount }) => {
 
     setSubmitted(true);
     dispatch({ type: "CLEAR_CART" });
-
-    // You can handle backend integration here later
-
     setTimeout(() => {
       router.push("/");
     }, 3000);
@@ -56,7 +53,6 @@ const CheckoutForm = ({ cartItems, totalAmount }) => {
 
   return (
     <div className="space-y-10">
-      {/* -------- Cart Summary -------- */}
       <div className="space-y-4">
         <h3 className="text-xl font-semibold">Your Cart</h3>
         {cartItems.map((item, i) => (
@@ -85,8 +81,6 @@ const CheckoutForm = ({ cartItems, totalAmount }) => {
           Total: ₹{totalAmount.toFixed(2)}
         </div>
       </div>
-
-      {/* -------- Checkout Form -------- */}
       <form
         onSubmit={handleSubmit}
         className="space-y-4 bg-white p-6 rounded shadow"
@@ -129,8 +123,6 @@ const CheckoutForm = ({ cartItems, totalAmount }) => {
           rows={3}
           required
         />
-
-        {/* -------- Payment Method -------- */}
         <div>
           <p className="font-medium mb-2">Payment Method</p>
 

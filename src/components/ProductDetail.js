@@ -5,8 +5,6 @@ import { useCart } from "@/context/CartContext";
 
 const ProductDetail = ({ product }) => {
   const { dispatch } = useCart();
-
-  // State for selected variant
   const [selectedSize, setSelectedSize] = useState("");
   const [selectedColor, setSelectedColor] = useState("");
 
@@ -14,12 +12,10 @@ const ProductDetail = ({ product }) => {
     const variant = product.variants.find(
       (v) => v.size === selectedSize && v.color === selectedColor
     );
-
     if (!variant) {
       alert("Please select size and color");
       return;
     }
-
     dispatch({
       type: "ADD_TO_CART",
       payload: {
@@ -36,7 +32,6 @@ const ProductDetail = ({ product }) => {
   return (
     <div className="container mx-auto px-4 py-10">
       <div className="flex flex-col md:flex-row gap-8">
-        {/* Product Image */}
         <div className="relative w-full md:w-1/2 h-80 md:h-96">
           <Image
             src={product.images[0]}
@@ -45,13 +40,9 @@ const ProductDetail = ({ product }) => {
             className="object-cover rounded-lg"
           />
         </div>
-
-        {/* Product Info */}
         <div className="md:w-1/2">
           <h1 className="text-2xl font-bold mb-2">{product.name}</h1>
           <p className="text-gray-600 mb-4">{product.description}</p>
-
-          {/* Size selector */}
           <div className="mb-4">
             <label className="block mb-1 font-medium">Select Size:</label>
             <div className="flex gap-2">
@@ -70,8 +61,6 @@ const ProductDetail = ({ product }) => {
               ))}
             </div>
           </div>
-
-          {/* Color selector */}
           <div className="mb-4">
             <label className="block mb-1 font-medium">Select Color:</label>
             <div className="flex gap-2">

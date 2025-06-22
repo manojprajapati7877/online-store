@@ -14,12 +14,9 @@ const Header = () => {
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        {/* Logo */}
         <Link href="/" className="text-2xl font-bold text-gray-800">
           MyStore
         </Link>
-
-        {/* Navigation Links */}
         <nav className="hidden md:flex space-x-8">
           <Link
             href="/"
@@ -28,8 +25,6 @@ const Header = () => {
             Home
           </Link>
         </nav>
-
-        {/* Search Bar */}
         <div className="flex-1 max-w-xs mx-4">
           <div className="relative">
             <input
@@ -40,8 +35,6 @@ const Header = () => {
             <FiSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
           </div>
         </div>
-
-        {/* Cart Icon */}
         <Link href="/cart" className="relative">
           <FiShoppingCart className="text-2xl text-gray-600 hover:text-gray-900" />
           {totalItems > 0 && (

@@ -1,26 +1,122 @@
 [
   {
-    "id": "p1",
+    "id": "1",
     "name": "T-Shirt",
     "description": "100% cotton premium T-shirt",
-    "images": ["/products/tshirt1.jpeg"],
+    "images": ["/products/tshirt11.avif"],
     "variants": [
       { "id": "v1", "size": "M", "color": "Black", "price": 499 },
       { "id": "v2", "size": "L", "color": "Black", "price": 499 },
       { "id": "v3", "size": "M", "color": "White", "price": 519 },
-       { "id": "v4", "size": "L", "color": "White", "price": 519 }
+      { "id": "v4", "size": "L", "color": "White", "price": 519 }
     ]
   },
   {
-    "id": "p2",
+    "id": "2",
     "name": "T-Shirt 2",
     "description": "100% cotton premium T-shirt",
-    "images": ["/products/tshirt2.jpeg"],
+    "images": ["/products/tshirt12.avif"],
     "variants": [
       { "id": "v5", "size": "M", "color": "Black", "price": 499 },
       { "id": "v6", "size": "L", "color": "Black", "price": 499 },
       { "id": "v7", "size": "M", "color": "White", "price": 519 },
-       { "id": "v8", "size": "L", "color": "White", "price": 519 }
+      { "id": "v8", "size": "L", "color": "White", "price": 519 }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "T-Shirt 3",
+    "description": "100% cotton premium T-shirt",
+    "images": ["/products/tshirt3.avif"],
+    "variants": [
+      { "id": "v9", "size": "M", "color": "Black", "price": 499 },
+      { "id": "v10", "size": "L", "color": "Black", "price": 499 },
+      { "id": "v11", "size": "M", "color": "White", "price": 519 },
+      { "id": "v12", "size": "L", "color": "White", "price": 519 }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "T-Shirt 4",
+    "description": "100% cotton slim fit T-shirt",
+    "images": ["/products/tshirt4.avif"],
+    "variants": [
+      { "id": "v13", "size": "M", "color": "Navy", "price": 529 },
+      { "id": "v14", "size": "L", "color": "Navy", "price": 529 },
+      { "id": "v15", "size": "M", "color": "Gray", "price": 549 },
+      { "id": "v16", "size": "L", "color": "Gray", "price": 549 }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "T-Shirt 5",
+    "description": "100% cotton round-neck T-shirt",
+    "images": ["/products/tshirt5.avif"],
+    "variants": [
+      { "id": "v17", "size": "M", "color": "Red", "price": 499 },
+      { "id": "v18", "size": "L", "color": "Red", "price": 499 },
+      { "id": "v19", "size": "M", "color": "White", "price": 519 },
+      { "id": "v20", "size": "L", "color": "White", "price": 519 }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "T-Shirt 6",
+    "description": "Casual cotton T-shirt",
+    "images": ["/products/tshirt6.avif"],
+    "variants": [
+      { "id": "v21", "size": "M", "color": "Blue", "price": 539 },
+      { "id": "v22", "size": "L", "color": "Blue", "price": 539 },
+      { "id": "v23", "size": "M", "color": "Black", "price": 559 },
+      { "id": "v24", "size": "L", "color": "Black", "price": 559 }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "T-Shirt 7",
+    "description": "Trendy printed cotton T-shirt",
+    "images": ["/products/tshirt7.avif"],
+    "variants": [
+      { "id": "v25", "size": "M", "color": "Yellow", "price": 489 },
+      { "id": "v26", "size": "L", "color": "Yellow", "price": 489 },
+      { "id": "v27", "size": "M", "color": "Black", "price": 499 },
+      { "id": "v28", "size": "L", "color": "Black", "price": 499 }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "T-Shirt 8",
+    "description": "Basic V-neck cotton T-shirt",
+    "images": ["/products/tshirt8.avif"],
+    "variants": [
+      { "id": "v29", "size": "M", "color": "Green", "price": 519 },
+      { "id": "v30", "size": "L", "color": "Green", "price": 519 },
+      { "id": "v31", "size": "M", "color": "White", "price": 499 },
+      { "id": "v32", "size": "L", "color": "White", "price": 499 }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "T-Shirt 9",
+    "description": "Comfort fit cotton T-shirt",
+    "images": ["/products/tshirt9.avif"],
+    "variants": [
+      { "id": "v33", "size": "M", "color": "Orange", "price": 529 },
+      { "id": "v34", "size": "L", "color": "Orange", "price": 529 },
+      { "id": "v35", "size": "M", "color": "Black", "price": 549 },
+      { "id": "v36", "size": "L", "color": "Black", "price": 549 }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "T-Shirt 10",
+    "description": "Casual crew neck cotton T-shirt",
+    "images": ["/products/tshirt10.avif"],
+    "variants": [
+      { "id": "v37", "size": "M", "color": "Maroon", "price": 539 },
+      { "id": "v38", "size": "L", "color": "Maroon", "price": 539 },
+      { "id": "v39", "size": "M", "color": "White", "price": 559 },
+      { "id": "v40", "size": "L", "color": "White", "price": 559 }
     ]
   }
 ]

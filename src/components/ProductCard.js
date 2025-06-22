@@ -131,8 +131,6 @@ const ProductCard = () => {
                       ))}
                     </select>
                   </div>
-
-                  {/* Show price dynamically */}
                   {selectedVariant ? (
                     <p className="text-green-600 font-medium">
                       ₹{selectedVariant.price}
